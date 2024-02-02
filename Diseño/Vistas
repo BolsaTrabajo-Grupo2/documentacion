@@ -3,15 +3,20 @@ home
     login usuario:
         ofertas:
             oferta
+        empresas
+        editar perfil
         
     login empresa:
-        form oferta
         ofertas:
             oferta:
-                candidatos
+                info
+            candidatos
+            editar oferta
+        form oferta
+        editar perfil
 
     register:
         empresa / estudiante
-        form empresa
-        form estudiante
+            form empresa
+            form estudiante
 
