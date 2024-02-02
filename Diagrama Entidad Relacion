@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-02-02T15:56:24.521Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="G3XABMmr0L1AmOhL9-Py" version="23.1.1" type="google">
+  <diagram name="Página-1" id="DXuOM456WmDzqK8XolaS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-3" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-4" value="&lt;div&gt;&lt;b&gt;ID: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Email: VARCHAR(50)&lt;/div&gt;&lt;div&gt;Password: VARCHAR(150)&lt;/div&gt;&lt;div&gt;Name: VARCHAR(20)&lt;/div&gt;&lt;div&gt;Surname: VARCHAR(50)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Rol: ENUM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(student, responsible, admin, company)&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zBsFsw3hBJW_zo98IrSr-3">
+          <mxGeometry y="50" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oPoOwq-dwMFC_z5XxTpU-1" value="Company" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oPoOwq-dwMFC_z5XxTpU-2" value="&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;ID: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;IdUser: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CIF: VARCHAR(50)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Address: VARCHAR(100)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Phone: VARCHAR(10)&lt;/div&gt;&lt;div&gt;Web: VARCHAR(100)&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="oPoOwq-dwMFC_z5XxTpU-1">
+          <mxGeometry y="50" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-9" value="Cycle" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="270" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-10" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;ID: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Name: VARCHAR(50)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;IdFamily: INTEGER&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;IdResponsible: INTEGER&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zBsFsw3hBJW_zo98IrSr-9">
+          <mxGeometry y="50" width="270" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-13" value="Offer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zBsFsw3hBJW_zo98IrSr-14" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;ID: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Job description: VARCHAR(200)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Required cycles: ENUM&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Contract period: VARCHAR(100)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Contact person: VARCHAR(100)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Inscription method: BOOLEAN&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Offer status: BOOLEAN&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zBsFsw3hBJW_zo98IrSr-13">
+          <mxGeometry y="50" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ovdjh1BO0uc06Yss9LYl-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="210" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ovdjh1BO0uc06Yss9LYl-2" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;ID: INTEGER&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;IdUser: INTEGER&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Address: VARCHAR(100)&lt;/div&gt;&lt;div&gt;CV link: VARCHAR(75)&lt;/div&gt;&lt;div&gt;Accept: BOOLEAN&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Ovdjh1BO0uc06Yss9LYl-1">
+          <mxGeometry y="50" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,17 @@
+home
+
+    login usuario:
+        ofertas:
+            oferta
+        
+    login empresa:
+        form oferta
+        ofertas:
+            oferta:
+                candidatos
+
+    register:
+        empresa / estudiante
+        form empresa
+        form estudiante
+
